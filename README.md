@@ -28,6 +28,10 @@ Jest to prosty CRUD, z endpointami:
 
 Aplikacja posiada prostą autoryzację poprzez Bearer Token (zaszyty w configu, `idh_test_case`).
 
+## Paginacja
+
+Ponieważ nie wynika to wprost z kodu, dodam - domyślnie paginacja w Laravelu, korzysta z parametru get `page`
+
 ## Konwencja
 
 -   MVC
