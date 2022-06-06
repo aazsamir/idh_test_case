@@ -51,6 +51,7 @@ Zostało napisanych parę testów, sprawdzają tylko czy endpointy działają po
 
 Aby uruchomić aplikację, należy wykonać polecenia:
 
+-   Uzupełnić `.env` o dane bazy danych
 -   `composer install`
 -   `php artisan migrate`
 -   `php artisan db:seed`
@@ -59,6 +60,16 @@ Aby uruchomić aplikację, należy wykonać polecenia:
 Aby przetestować
 
 -   `php artisan test`
+
+## ToDo
+
+Rzeczy, z których zdaję sobie sprawę, że powinny być, lecz nie miałem czasu by je napisać.
+
+-   Testy
+-   CQS pattern
+-   Ujednolicenie systemu walidacji w kontrolerach (lub wyciągnięcie mechanizmu do zewnętrznej klasy)
+-   dokumentacja OpenAPI
+-   Nowa wersja Laravela automatycznie migruje tabelę `personal_access_tokens`, choć takiej migracji nie ma, to chyba bug(?) - do weryfikacji
 
 ## Autor
 
