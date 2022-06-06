@@ -51,7 +51,9 @@ Aby uruchomić aplikację, należy wykonać polecenia:
 -   `php artisan migrate`
 -   `php artisan db:seed`
 -   `php artisan serve`
-    Aby przetestować
+
+Aby przetestować
+
 -   `php artisan test`
 
 ## Autor
