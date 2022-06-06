@@ -7,7 +7,9 @@ Struktura MVC frameworku składa się z:
 -   Kontrolerów
 -   Modeli
 -   Widoków
-    Jednak zostało to rozszerzone o:
+
+Jednak zostało to rozszerzone o:
+
 -   Repozytoria
 -   Serwisy (tu akurat bardzo, bardzo prosty, do wysyłania maili)
 -   Stałe (a dokładniej Enumy)
